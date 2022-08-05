@@ -1,0 +1,155 @@
+.upline{
+    background-color: rgb(36, 205, 152);
+    height: 93px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cercul1{
+    background-color: white;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;           
+}
+.denis{
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(-10px, 15px);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 20px;          
+}
+.upline .stick1{
+    background-color: white;
+    height: 15px;
+    width: 60px;
+    position: absolute;
+    transform: translate(510px, -70px);
+    border-radius: 5px;
+}
+.upline .stick2{
+    background-color: white;
+    height: 15px;
+    width: 60px;
+    position: absolute;
+    transform: translate(510px, -50px);
+    border-radius: 5px;
+}
+.upline .stick3{
+    background-color: white;
+    height: 15px;
+    width: 60px;
+    position: absolute;
+    transform: translate(510px, -30px);
+    border-radius: 5px;
+}
+/*Картинка с кнопкой*/
+.room{
+    text-align: center;
+    position: relative;
+}
+.room img{
+    height: 400px;
+}
+.room .button1{
+    background-color: orange;
+    height: 50px;
+    width: 250px;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110px, 100px);
+    position: absolute;
+    font-size: 18px;
+
+}
+.room .button1:hover{
+    background-color: black;
+}
+/*Текст, лицо, имя и т.д */
+.boss{
+    background-color: white;
+    width: 600px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(0px, -23px);
+}
+.boss .My_name{
+    transform: translate(350px, 140px); 
+}
+.boss .my_face{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(12px, 0px);
+}
+.boss .Text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    transform: translate(5px, 210px);
+    margin-top: 50px;
+  
+}
+.boss .prichini{
+    transform: translate(0px, 210px);
+    text-align: center;
+}
+.boss .problem{
+    transform: translate(0px, 210px);
+    font-size: 20px; 
+}
+.boss .button2{
+    background-color: orange;
+    height: 50px;
+    width: 250px;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110px, 350px);
+    position: absolute;
+    font-size: 18px;
+}
+.boss .button2:hover{
+    background-color: black;
+}
+.the_end{
+    background-color: rgb(136, 138, 136);
+    height: 93px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(0px, -46px);
+}
+.the_end .cercul2{
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(10px, 7px);
+}
+.the_end .street{
+    transform: translate(250px, 60px);
+    font-size: 13px;
+    color: white;
+}
+.the_end .number{
+    transform: translate(485px, -10px);
+    font-size: 13px;
+    color: white;
+}
+.the_end .link{
+    transform: translate(485px, 3px);
+    font-size: 13px;
+    text-decoration: none;
+}
