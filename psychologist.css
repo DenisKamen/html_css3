@@ -1,9 +1,13 @@
-.upline{
-    background-color: rgb(36, 205, 152);
-    height: 93px;
-    width: 600px;
+body{
+    width: 600px; 
+    background-color: gray;
     margin-left: auto;
     margin-right: auto;
+}
+.upline{
+    background-color: rgb(36, 205, 152);
+    width: 600px;
+    height: 130px;
 }
 
 .cercul1{
@@ -11,46 +15,36 @@
     height: 90px;
     width: 90px;
     border-radius: 50%;
-    position: absolute;           
+    float: left;  
+    margin-top: 15px; 
+    margin-left: 15px;
 }
-.denis{
-    height: 90px;
-    width: 90px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    transform: translate(-10px, 15px);
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    font-size: 20px;          
+ .denis{
+    margin-top: 30px;
+    margin-left: 150px;
+    float: left;
+    font-size:20px ;
+    line-height: 20px;
 }
-.upline .stick1{
-    background-color: white;
-    height: 15px;
+ .stick{
+    width: 85px;
+    height: 70px;
+    float: right;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+div.stick div{
     width: 60px;
-    position: absolute;
-    transform: translate(510px, -70px);
-    border-radius: 5px;
-}
-.upline .stick2{
-    background-color: white;
     height: 15px;
-    width: 60px;
-    position: absolute;
-    transform: translate(510px, -50px);
-    border-radius: 5px;
-}
-.upline .stick3{
     background-color: white;
-    height: 15px;
-    width: 60px;
-    position: absolute;
-    transform: translate(510px, -30px);
-    border-radius: 5px;
+    border-radius: 7px;
+    margin-top: 7px;
 }
 /*Картинка с кнопкой*/
 .room{
     text-align: center;
     position: relative;
+    
 }
 .room img{
     height: 400px;
@@ -62,11 +56,10 @@
     color: white;
     border-radius: 7px;
     border: none;
-    top: 50%;
-    left: 50%;
-    transform: translate(-110px, 100px);
     position: absolute;
     font-size: 18px;
+    top: 200px;
+    left: 30%;
 
 }
 .room .button1:hover{
@@ -76,34 +69,38 @@
 .boss{
     background-color: white;
     width: 600px;
-    height: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    transform: translate(0px, -23px);
+    margin-top: -22px;
+    padding-bottom: 385px;
+    padding-top: 20px;
+    position: relative;
 }
 .boss .My_name{
-    transform: translate(350px, 140px); 
+    float: right;
+    margin-top: 45px;
+    margin-right: 60px;
 }
 .boss .my_face{
     height: 200px;
     width: 200px;
     border-radius: 50%;
     position: absolute;
-    transform: translate(12px, 0px);
+    left: 12px;
 }
 .boss .Text{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    transform: translate(5px, 210px);
-    margin-top: 50px;
-  
+    margin-top: 250px;
+    margin-bottom: -200px;
 }
 .boss .prichini{
-    transform: translate(0px, 210px);
+    margin-top: 210px;
+    margin-bottom: -200px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .boss .problem{
-    transform: translate(0px, 210px);
+    margin-top: 230px;
+    margin-bottom: -200px;
     font-size: 20px; 
 }
 .boss .button2{
@@ -113,11 +110,10 @@
     color: white;
     border-radius: 7px;
     border: none;
-    top: 50%;
-    left: 50%;
-    transform: translate(-110px, 350px);
     position: absolute;
     font-size: 18px;
+    top: 85%;
+    left: 30%;
 }
 .boss .button2:hover{
     background-color: black;
@@ -126,9 +122,7 @@
     background-color: rgb(136, 138, 136);
     height: 93px;
     width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    transform: translate(0px, -46px);
+    margin-top: -12px;
 }
 .the_end .cercul2{
     background-color: white;
@@ -136,20 +130,22 @@
     width: 80px;
     border-radius: 50%;
     position: absolute;
-    transform: translate(10px, 7px);
+    margin: 7px;
 }
 .the_end .street{
-    transform: translate(250px, 60px);
+    padding-top: 50px;
+    margin-left: 285px;
     font-size: 13px;
     color: white;
 }
 .the_end .number{
-    transform: translate(485px, -10px);
+    margin-top: -50px;
+    margin-left: 485px;
     font-size: 13px;
     color: white;
 }
 .the_end .link{
-    transform: translate(485px, 3px);
+    margin-left: 485px;
     font-size: 13px;
     text-decoration: none;
 }
