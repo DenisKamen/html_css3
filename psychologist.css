@@ -4,20 +4,22 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+
+
 .upline{
     background-color: rgb(36, 205, 152);
     width: 600px;
-    height: 130px;
+    height: 95px;
+    overflow: auto;
 }
-
 .cercul1{
     background-color: white;
     height: 90px;
     width: 90px;
     border-radius: 50%;
     float: left;  
-    margin-top: 15px; 
-    margin-left: 15px;
+    margin-top: 5px; 
+    margin-left: 5px;
 }
  .denis{
     margin-top: 30px;
@@ -31,7 +33,7 @@ body{
     height: 70px;
     float: right;
     margin-right: 15px;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 div.stick div{
     width: 60px;
@@ -73,6 +75,8 @@ div.stick div{
     padding-bottom: 385px;
     padding-top: 20px;
     position: relative;
+    padding: left;
+    padding: right
 }
 .boss .My_name{
     float: right;
@@ -120,26 +124,25 @@ div.stick div{
 }
 .the_end{
     background-color: rgb(136, 138, 136);
-    height: 93px;
+    height: 85px;
     width: 600px;
-    margin-top: -12px;
+    margin-top: -20px;
 }
 .the_end .cercul2{
     background-color: white;
     height: 80px;
     width: 80px;
     border-radius: 50%;
-    position: absolute;
-    margin: 7px;
+    margin-top: 19px;
 }
 .the_end .street{
-    padding-top: 50px;
+    margin-top: -50px;
     margin-left: 285px;
     font-size: 13px;
     color: white;
 }
 .the_end .number{
-    margin-top: -50px;
+    margin-top: -40px;
     margin-left: 485px;
     font-size: 13px;
     color: white;
@@ -149,3 +152,4 @@ div.stick div{
     font-size: 13px;
     text-decoration: none;
 }
+
