@@ -108,6 +108,7 @@ div.stick div{
     font-size: 20px; 
 }
 .boss .button2{
+    margin: auto;
     background-color: orange;
     height: 50px;
     width: 250px;
@@ -126,6 +127,7 @@ div.stick div{
     height: 85px;
     width: 600px;
     padding-top: 7px;
+    overflow: auto;
 }
 .the_end .cercul2{
     background-color: white;
@@ -133,21 +135,9 @@ div.stick div{
     width: 80px;
     border-radius: 50%;
 }
-.the_end .street{
-    margin-top: -50px;
-    margin-left: 285px;
-    font-size: 13px;
-    color: white;
+.a{
+    font-size: 17px;
+    padding: 10px 10px 10px 10px;
+    float: right;
+    width: 100PX;
 }
-.the_end .number{
-    margin-top: -40px;
-    margin-left: 485px;
-    font-size: 13px;
-    color: white;
-}
-.the_end .link{
-    margin-left: 485px;
-    font-size: 13px;
-    text-decoration: none;
-}
-
